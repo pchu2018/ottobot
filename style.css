@@ -4,3 +4,8 @@ h1 {
   font-size: 2em;
   
 }
+
+#daily {
+  max-width: 500px;
+  
+}
