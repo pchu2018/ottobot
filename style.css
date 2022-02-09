@@ -1,8 +1,15 @@
+header {
+  margin: 50px 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 h1 {
   color: black;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.5em;
-  
+  margin: 10px;
 }
 
 h2 {
@@ -15,10 +22,14 @@ p {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.9em;
 }
+p.intro {
+  margin: 200px;
+  float: right;
+}
 
 footer {
-  margin:auto;
-  max-width: 600px;
+  position: fixed;
+  bottom: 0%;
 }
 
 #credit {
