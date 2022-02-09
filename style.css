@@ -1,15 +1,20 @@
-header {
+body {
+  max-width: 600px;
+}
+
+#header {
   margin: 50px 100px;
-  position: fixed;
-  top: 0;
-  left: 0;
+  width: 400px;
 }
 
 h1 {
   color: black;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.5em;
-  margin: 10px;
+}
+
+#title {
+  margin-bottom: 0;
 }
 
 h2 {
@@ -21,15 +26,18 @@ h2 {
 p {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.9em;
+  margin: 50px;
 }
-p.intro {
+#intro {
   margin: 200px;
   float: right;
 }
 
 footer {
   position: fixed;
-  bottom: 0%;
+  bottom: 0;
+  height: 50px;
+  margin-top: 20px;
 }
 
 #credit {
