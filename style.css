@@ -5,6 +5,7 @@ body {
 #header {
   margin: 50px 100px;
   width: 400px;
+  background-color: yellow;
 }
 
 h1 {
@@ -14,13 +15,20 @@ h1 {
 }
 
 #title {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 h2 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
+  margin-top: 0px;
+}
+
+nav {
+  position: relative;
+  left: 20px;
+  margin: 10px;
 }
 
 p {
@@ -29,7 +37,7 @@ p {
   margin: 50px;
 }
 #intro {
-  margin: 200px;
+  margin: 20px 200px;
   float: right;
 }
 
