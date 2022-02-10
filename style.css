@@ -4,6 +4,7 @@ body {
 
 #header {
   margin: 50px 100px;
+  padding: 10px;
   width: 400px;
   background-color: yellow;
 }
@@ -29,11 +30,12 @@ nav {
   position: relative;
   left: 20px;
   margin: 10px;
+  display: inline-block;
 }
 #nav_bar {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 p {
@@ -43,7 +45,6 @@ p {
 }
 .content {
   margin: 50px 100px;
-  display: inline-block;
 }
 
 footer {
@@ -82,6 +83,6 @@ a:hover {
 }
 
 #daily {
-  max-width: 500px;
+  max-width: 400px;
   
 }
