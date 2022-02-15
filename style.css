@@ -43,6 +43,8 @@ li + li {
 }
 #otto_head {
   width: 30px;
+  margin: 0;
+  padding: 10px;
 }
 
 p {
